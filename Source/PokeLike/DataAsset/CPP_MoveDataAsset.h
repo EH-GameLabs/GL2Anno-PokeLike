@@ -29,4 +29,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MoveData")
 	EMyDamageType DamageType;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MoveData")
+	int MovePP;
 };
